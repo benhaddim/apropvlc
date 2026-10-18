@@ -47,6 +47,28 @@ young people feel are their own?*
   <img src="media/screens/16-calendar.png" width="200" alt="Month calendar with saved plans">
 </p>
 
+## Data
+
+Everything on the map and in the agenda comes from open or public sources, cached at build time (the app never calls
+them live):
+
+| Source | What | Records |
+|---|---|---|
+| PITEC (Cátedra ESPACIOS inventory) | Cultural spaces of the Valencian Community | 2,777 |
+| Institut Valencià de Cultura (GVA open data) | Regional agenda | 971 events |
+| Universitat de València | University cultural agenda | 67 events |
+| UV faculty and service websites | Faculty events, tagged by a small classifier | 345 events |
+| OpenStreetMap | Museums | 359 |
+| Wikidata | Museums | 205 |
+
+Record counts are from the data snapshot on 18 Oct 2026; a scheduled job refreshes the agendas daily.
+
+## Built with
+
+Next.js 16 (App Router, TypeScript), React 19, Tailwind CSS 4, Mapbox GL JS with a MapLibre and OpenFreeMap fallback,
+Supabase (ready for the social features), Vercel and GitHub Actions. Installable as a PWA and packaged for Android as a
+Trusted Web Activity.
+
 ## Team
 
 | | Who | Built |
