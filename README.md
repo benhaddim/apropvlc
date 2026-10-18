@@ -69,6 +69,20 @@ Next.js 16 (App Router, TypeScript), React 19, Tailwind CSS 4, Mapbox GL JS with
 Supabase (ready for the social features), Vercel and GitHub Actions. Installable as a PWA and packaged for Android as a
 Trusted Web Activity.
 
+## From day one to now
+
+The first working prototype, built on day one of the hackathon by a cloud coding agent from our spec: a full-screen map
+of the 2,777 PITEC spaces, search, place detail and the first Para ti tab.
+
+<p align="center">
+  <img src="media/prototype/cursor-home-map.webp" width="400" alt="Day one prototype: map with the PITEC spaces">
+  <img src="media/prototype/cursor-search.webp" width="400" alt="Day one prototype: search results">
+</p>
+<p align="center">
+  <img src="media/prototype/cursor-place-detail.webp" width="400" alt="Day one prototype: place detail">
+  <img src="media/prototype/cursor-para-ti.webp" width="400" alt="Day one prototype: Para ti tab">
+</p>
+
 ## Team
 
 | | Who | Built |
@@ -79,3 +93,8 @@ Trusted Web Activity.
 
 Thanks to Cátedra ESPACIOS and the Observatori Cultural de la Universitat de València for the challenge and the data.
 
+## Contact
+
+[hola@apropvlc.com](mailto:hola@apropvlc.com)
+
+© 2026 The A PROP team. All rights reserved. Screenshots and media may not be reused without permission.
